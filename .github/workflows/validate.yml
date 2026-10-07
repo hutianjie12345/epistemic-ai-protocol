@@ -1,0 +1,21 @@
+# SPDX-License-Identifier: MIT
+name: Repository checks
+'on':
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - name: Check out reviewed repository state
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - name: Check snapshot, links, and publication hygiene
+        run: python3 tools/check_repository.py
+      - name: Test checks against synthetic failures
+        run: python3 -m unittest discover -s tools -p 'test_*.py' -v
