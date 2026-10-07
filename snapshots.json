@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "selected_snapshot": "prompt/v2.9.md",
+  "snapshots": [
+    {
+      "path": "prompt/v2.9.md",
+      "version_label": "v2.9",
+      "title": "TJ Configuration v2.9 — Calibrated Retrieval Edition",
+      "source_kind": "maintainer_supplied_conversation_text",
+      "received_date": "2026-10-07",
+      "sha256": "b31bdf4b3959f7d9d7580cf7cde3b5dbb0000cdb6c19aada6b68cf7863bff680",
+      "status": "published_snapshot",
+      "note": "Hash identifies the preserved UTF-8 package file, not an unrecovered historical export. No latest-private-version claim."
+    }
+  ]
+}
