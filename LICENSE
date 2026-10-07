@@ -1,0 +1,32 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+License application and scope
+
+To the extent the maintainer holds copyright and similar rights, the prompt
+and maintainer-contributed documentation in this repository are licensed
+under the Creative Commons Attribution 4.0 International Public License.
+
+The full, unmodified legal code governs this grant and is incorporated by
+reference:
+https://creativecommons.org/licenses/by/4.0/legalcode.en
+
+Human-readable summary (not a substitute for the legal code):
+https://creativecommons.org/licenses/by/4.0/
+
+Attribution designation: TJ / hutianjie12345
+Source repository: https://github.com/hutianjie12345/epistemic-ai-protocol
+
+This notice applies only to rights that the maintainer has authority to
+license. It does not grant rights to third-party materials, private records,
+trademarks, or personal information. No private correspondence or external
+memory records are included in this publication package.
+
+No warranties are provided. See Section 5 of the governing legal code for
+the disclaimer of warranties and limitation of liability.
+
+This file identifies the selected standard license and its scope; it does
+not replace or modify that license's terms.
+
+Scope clarification: the files under tools/, workflow configuration under
+.github/, and repository maintenance configuration are licensed under MIT
+in LICENSE-CODE instead. The prompt and prose documentation remain CC BY 4.0.
