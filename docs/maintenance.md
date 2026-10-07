@@ -24,7 +24,9 @@ Add an actual source file under `prompt/` and review its source, title, and inte
 
 ## Hosted workflow status
 
-The workflow is a prepared configuration. Local execution tests the Python commands only. Installation, repository Actions settings, a real workflow run, and its final result must be checked before displaying a hosted passing-status badge. No badge or hosted-success claim is included in this draft.
+The first hosted GitHub Actions run completed successfully on 2026-10-07 for commit `6473b06fa09972b4161813eaafb5ce38c82d4ff1` (run `37563627268`). That run validated the repository snapshot, local Markdown links, publication-hygiene checks, and the synthetic failure tests included in `tools/`.
+
+This success verifies the maintenance workflow on that repository state. It is not a language-model evaluation, a security audit, or evidence that the prompt improves model behavior.
 
 The configuration uses `push`, `pull_request`, and `workflow_dispatch`, `contents: read`, a GitHub-hosted runner, and `persist-credentials: false`. The `actions/checkout` commit was resolved from its official v4 ref and its action definition inspected on 2026-10-07. Its use is pinned, not floating. No paid model API or local MSI runner is involved.
 
